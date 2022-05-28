@@ -23,11 +23,10 @@ public class Truck extends Transport implements Service {
         System.out.println("Обслуживаем " + getModelName());
         for (int i = 0; i < getWheelsCount(); i++) {
             updateTyre();
-
+        }
             checkEngine();
             checkTrailer();
 
-        }
     }
 }
 
